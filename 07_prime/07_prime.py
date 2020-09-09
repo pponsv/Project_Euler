@@ -5,7 +5,8 @@ that the 6th prime is 13.
 What is the 10 001st prime number?
 """
 import numpy as np
-
+import time
+t0 = time.time()
 a = np.asarray(list(range(2, 200000)))
 primes = []
 while len(primes) < 10001:
@@ -16,3 +17,4 @@ while len(primes) < 10001:
     a = a[((a % i != 0))]
     primes.append(i)
 print(primes[-1])
+print(time.time() - t0)
