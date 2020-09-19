@@ -26,5 +26,6 @@ for i in range(2,1001):
         l = len(tmp)
         N = i
 print(N)
-
+print(1/N)
+print(rem_vector(N))
 # print(rem_vector(97), 10%7)

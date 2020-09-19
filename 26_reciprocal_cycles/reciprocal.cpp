@@ -53,6 +53,7 @@ int main(void) {
 		cout << N << ' ' << len << endl;
 	}
 	cout << div(N) << endl;
+	cout << N << endl;
 	/* cout << len_subs(7); */
 	
 }
